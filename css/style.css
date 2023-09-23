@@ -18,6 +18,7 @@ body {
 .container {
   align-items: center;
   border: 2px solid snow;
+  border-raduis: 5px;
 }
 
 .times-container{
