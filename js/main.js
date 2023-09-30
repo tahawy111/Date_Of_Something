@@ -51,6 +51,9 @@ let counter = setInterval(() => {
     seconds < 10 ? `0${seconds}` : seconds;
 
   if (dateDiff < 0) {
+    document.querySelector('h1.time-ended').style.display = "flex"
+    document.querySelector('.times-container').style.display = "none"
     clearInterval(counter);
+
   }
 }, 1000);
