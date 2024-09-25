@@ -23,7 +23,7 @@
 // The End Of The Year Date Countdown
 let countDownDate = new Date(
   // `2023-10-05T23:59:59.999Z`
-  `2023-10-04T20:59:59.999Z`
+  `2024-10-03T20:59:59.999Z`
 ).getTime();
 // let countDownDate = new Date(new Date().getFullYear());
 console.log(countDownDate);
